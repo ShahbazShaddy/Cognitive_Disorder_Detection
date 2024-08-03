@@ -1,0 +1,23 @@
+{
+    "personal_details": [
+        "What is your name?",
+        "What is your age?",
+        "What is your gender?",
+        "What is your weight (kg)?",
+        "What is your marital status?"
+    ],
+    "symptoms": [
+        {"question": "Do you have memory problems, particularly remembering recent events?", "days_required": 2},
+        {"question": "Do you have increasing confusion?", "days_required": 5},
+        {"question": "Do you have reduced concentration?", "days_required": 6},
+        {"question": "Do you have behavior changes?", "days_required": 7},
+        {"question": "Do you have withdrawal?", "days_required": 8},
+        {"question": "Do you have loss of ability to do everyday tasks?", "days_required": 10}
+    ],
+    "history": [
+        "What is the onset of your symptoms? (Sudden or Gradual)",
+        "What are the factors that aggravate the above symptoms?",
+        "What are the factors that relieve the symptoms?",
+        "Any other associated factors? E.g., diarrhea, constipation, digestion problems?"
+    ]
+}
