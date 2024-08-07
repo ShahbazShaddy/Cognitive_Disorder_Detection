@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot Questionnaire</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <input type="file" id="file-input" style="display: none;">
+    <div id="chat-container">
+        <div id="chat-box">
+            <div id="chat-content">
+                <!-- <div class="chatbot-message">
+                    <p>Welcome! Let's start with some questions.</p>
+                </div> -->
+            </div>
+        </div>
+        <div id="input-box">
+            <input type="text" id="user-input" placeholder="Type your answer..." />
+            <button id="send-button" onclick="submitAnswer()">Send</button>
+        </div>
+    </div>
+</body>
+</html>
